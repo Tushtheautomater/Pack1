@@ -1,0 +1,13 @@
+class FavMoviesNamePrinting {
+    public static void main(String[] args) {
+        System.out.println("Avenger");
+        System.out.println("Iron Man");
+        System.out.println("Peaky Blinders");
+        System.out.println("13 reasons why");
+        System.out.println("Fight Club");
+        System.out.println("Marvel Spiderman");
+        System.out.println("Wonder Woman 1991");
+        System.out.println("Sex Education");
+        System.out.println(" *****F***U****C****K*****");
+     }
+}

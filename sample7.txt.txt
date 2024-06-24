@@ -1,0 +1,8 @@
+Class sample7 {
+  
+      public static void (String []) {
+                  
+                  System.out.println("Tushar Sample sender");
+}
+}
+          

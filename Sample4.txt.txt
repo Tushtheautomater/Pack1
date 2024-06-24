@@ -1,0 +1,13 @@
+class LatestMovies {
+	public static void main(String[] agrs) {
+		System.out.println("Stranger Things");
+		System.out.println("Peaky Blinders");
+		System.out.println("Narcos");
+		System.out.println("Game Of Thrones");
+		System.out.println("House of Dragon");
+		System.out.println("Prison Break");
+		System.out.println("Vikings");
+		System.out.println("Narcos Mexico");
+		System.out.println("Breaking Bad");
+	}
+}	
