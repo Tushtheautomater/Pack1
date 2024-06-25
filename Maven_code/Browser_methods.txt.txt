@@ -1,0 +1,45 @@
+package samplepack2;
+
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Browser_Methods {
+
+	public static void main(String[] args) {
+		
+		
+		String path="C:\\Users\\admin\\Desktop\\Eclipse test25\\projectpocxyz\\browser drivers\\chromedriver.exe";
+		System.setProperty("webdriver.chrome.driver", path);
+		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		System.out.println(driver.manage().window().getSize());
+	//	driver.manage().window().setSize(new Dimension(500,300));
+	
+		//1. driver.get("https://in.bookmyshow.com/");
+	    String	title=driver.getTitle();
+	    		System.out.println(title);
+	    		
+	    //2.		driver.get("https://in.bookmyshow.com/");
+	    	    System.out.println(driver.getCurrentUrl());
+	    	    
+	    	//3.    driver.get("https://in.bookmyshow.com/");
+	    	    System.out.println(driver.getPageSource());
+	    	    
+	    	//4.    driver.get("https://in.bookmyshow.com/");
+	    	    System.out.println(driver.getWindowHandle());
+	    	    
+	    	// 5.   driver.get("https://in.bookmyshow.com/");
+	    	    System.out.println(driver.getCurrentUrl());
+	    	    driver.close();
+	    	    driver.quit();
+	    	    
+	    	    
+	    	   
+	    	    
+	    	    
+		
+
+	}
+
+}

@@ -1,0 +1,51 @@
+package samplepack2;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Navigational_Methods {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		String path="C:\\Users\\admin\\Desktop\\Eclipse test25\\projectpocxyz\\browser drivers\\chromedriver.exe";
+		System.setProperty("webdriver.chrome.driver", path);
+		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		
+		
+		driver.navigate().to("https://in.bookmyshow.com/");
+		Thread.sleep(3000);
+		driver.get("https://www.zomato.com/");
+		Thread.sleep(3000);
+        driver.navigate().back();
+        Thread.sleep(3000);
+        driver.navigate().forward();
+        Thread.sleep(3000);
+        driver.navigate().refresh();
+        Thread.sleep(3000);
+        driver.close();
+        Thread.sleep(3000);
+        
+        driver.quit();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		//driver.get("https://in.bookmyshow.com");
+  	  System.out.println(driver.getCurrentUrl());
+  	  driver.navigate().forward();
+  	  driver.get("https://www.zomato.com");
+  	  System.out.println(driver.getCurrentUrl());
+  	    
+		
+
+}
+}
